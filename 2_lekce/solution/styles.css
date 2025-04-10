@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"); /* 6. úkol*/
+
+:root {
+  --subheader-color: green; /* 4. úkol*/
+  --header-color: rgba(0, 0, 0, 0.8); /* 4. úkol*/
+  --body-background: rgb(238, 238, 238); /* 4. úkol*/
+  --container-bc: #fff; /* 4. úkol*/
+}
+
+/*--------------------------------------------------*/
+/*vloženo ze styles-extra.css*/
+.container {
+  box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  width: 800px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid var(--header-color);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+/*--------------------------------------------------*/
+header {
+  text-align: center; /* 6. úkol*/
+}
+header p {
+  color: var(--subheader-color); /* 3. úkol*/
+  font-size: 18px; /* 6. úkol*/
+}
+
+header img {
+  height: 150px; /* 5. úkol*/
+  width: 150px; /* 5. úkol*/
+  border-radius: 50%; /* 7. úkol*/
+}
+
+body {
+  background-color: var(--body-background); /* 3. úkol*/
+  font-family: Ubuntu, sans-serif; /* 6. úkol*/
+}
+
+.container {
+  background-color: var(--container-bc); /* 3. úkol*/
+  padding: 20px; /* 5. úkol*/
+  height: calc(100vh - 20px); /* 5. úkol*/
+  border-radius: 5px; /* 7. úkol*/
+}
+
+h1,
+h2 {
+  color: var(--header-color); /* 3. úkol*/
+}
+
+h1 {
+  text-transform: uppercase; /* 6. úkol*/
+}
+
+h2 {
+  font-weight: 500; /* 6. úkol*/
+}
+
+a {
+  color: blue; /* bonus*/
+}
+a:active {
+  color: green; /* bonus*/
+}
+a:visited {
+  color: purple; /* bonus*/
+}
+a:hover {
+  color: red; /* bonus*/
+}
+.about-me {
+  text-align: justify; /* 6. úkol*/
+}
